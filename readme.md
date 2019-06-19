@@ -24,7 +24,7 @@
 - CMS: Terran
 
 
-#### 数据库设计（当前进度：上：64 中：P1）
+#### 数据库设计（当前进度：上：64 中：10）
 数据库名：zerg
 character Set: utf8mb4
 collation: utf8mb4_bin

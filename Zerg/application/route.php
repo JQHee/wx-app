@@ -27,4 +27,4 @@ use think\Route;
 // Validate  参数验证层
 
 // 三段式 模块/控制器/方法
-Route::get('api/v1/banner/:id','api/v1.Banner/getBanner');
+Route::get('api/:version/banner/:id','api/:version.Banner/getBanner');

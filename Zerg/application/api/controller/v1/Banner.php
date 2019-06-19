@@ -23,12 +23,20 @@ class Banner {
     function getBanner($id) {
 
         (new IDMustBePostiveInt()) ->goCheck();
-        $bannber = BannerModel::find($id);
-        // $bannber = BannerModel::getBannerByID($id);
+        // $bannber = BannerModel::with(['items', 'items.img']) -> find($id);
+        $bannber = BannerModel::getBannerByID($id);
+        /*
+        // 隐藏模型字段 (非常糟糕)
+        $data = $bannber -> toArray();
+        unset($data['delete_time']);
+        */
+        // $bannber -> hidden(['delete_time']);
+        // $bannber -> visible(['id']);
         if (!$bannber) {
             throw new BannerMissException();
         }
-        return json($bannber);
+
+        return $bannber;
 
     }
 }

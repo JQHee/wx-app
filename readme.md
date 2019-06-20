@@ -30,7 +30,7 @@ character Set: utf8mb4
 collation: utf8mb4_bin
 
 可以参考项目Koa vue：https://github.com/Tzcodejs/mini-shop
-tp5: https://github.com/zengzhuoyu/Zerg
+tp5: https://github.com/zengzhuoyu/Zerg 、有sql文件：https://github.com/VincentPHP/zerg
 零食铺子小程序：https://github.com/JQHee/ProtossWx
 
 ##### 一、首页

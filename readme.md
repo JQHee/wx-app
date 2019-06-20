@@ -31,6 +31,7 @@ collation: utf8mb4_bin
 
 可以参考项目Koa vue：https://github.com/Tzcodejs/mini-shop
 tp5: https://github.com/zengzhuoyu/Zerg
+零食铺子小程序：https://github.com/JQHee/ProtossWx
 
 ##### 一、首页
 ```

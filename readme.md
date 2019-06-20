@@ -28,6 +28,10 @@
 数据库名：zerg
 character Set: utf8mb4
 collation: utf8mb4_bin
+
+可以参考项目Koa vue：https://github.com/Tzcodejs/mini-shop
+tp5: https://github.com/zengzhuoyu/Zerg
+
 ##### 一、首页
 ```
 1.轮播图： 可跳转到商品详情、也可以跳转到其它类型

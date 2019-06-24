@@ -36,7 +36,7 @@ source .bash_profile
 mysql
 FLUSH PRIVILEGES; // 命令本质上的作用是将当前user和privilige表中的用户信息/权限设置从mysql库(MySQL数据库的内置库)中提取到内存里
 SET PASSWORD FOR 'root'@'localhost' = PASSWORD('123456');
-更改密码：update mysql.user set authentication_string = passwprd('root123)where user = 'root' and host = 'localhost';
+更改密码：update mysql.user set authentication_string = password('root123)where user = 'root' and host = 'localhost';
 
 
 ```

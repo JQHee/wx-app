@@ -33,7 +33,6 @@ class Banner extends Model
     public  static  function getBannerByID($id) {
         $bannber = self::with(['items', 'items.img']) -> find($id);
         // 隐藏模型字段
-
         return $bannber;
     }
 

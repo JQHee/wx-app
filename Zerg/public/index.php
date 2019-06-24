@@ -19,7 +19,7 @@ define('LOGO_PATH', __DIR__ . '/../logo/');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
 
-// 开启sql日志文件
+// 开启sql日志文件写入
 \think\Log::init([
     'type' => 'File',
     'path' => LOGO_PATH,

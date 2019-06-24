@@ -32,4 +32,25 @@ class BaseVlidate extends Validate
             return true;
         }
     }
+
+
+    /**
+     * 验证是否为正整数
+     * @param $value 用户提交的数据
+     * @param string $rule
+     * @param string $data
+     * @param string $field 验证的字段
+     * @return bool false OR true
+     */
+    protected function isPositiveInteger($value, $rule='', $data='', $field='')
+    {
+        if(is_numeric($value) && is_int($value + 0) && ($value + 0) > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

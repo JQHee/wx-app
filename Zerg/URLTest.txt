@@ -1,0 +1,7 @@
+/// 首页
+首页广告：http://localhost/zerg/public/index.php/api/v1/banner?id=1
+首页的主题：http://localhost/zerg/public/index.php/api/v1/theme?ids=1,2,3
+首页主题下的商品列表：http://localhost/zerg/public/index.php/api/v1/themeGoods?id=1
+首页底部的商品列表：http://localhost/zerg/public/index.php/api/v1/homeGoods?count=15
+
+/// 分类

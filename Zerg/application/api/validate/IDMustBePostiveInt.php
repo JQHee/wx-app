@@ -13,18 +13,13 @@ use think\Validate;
 class IDMustBePostiveInt extends BaseVlidate
 {
 
+    //验证字段及验证方法
     protected $rule = [
-        'id' => 'require|isPostiveInteger'
+        'id' => 'require|isPositiveInteger',
     ];
 
-    // 自定义验证规则
-    // id为正整数
-    protected function isPostiveInteger($value, $rule='', $data='', $filed='') {
-        if(is_numeric($value) && is_int($value + 0) && ($value + 0) > 0) {
-            return true;
-        } else {
-            // 返回错误信息
-            return $filed + '必须是正整数';
-        }
-    }
+    //验证不通过提示信息
+    protected $message = [
+        'id' => 'id必须是正整数',
+    ];
 }

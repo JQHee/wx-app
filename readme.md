@@ -14,8 +14,8 @@
 - 直接下载
 - thinkphp（5.0.7） 完全开发手册：https://www.kancloud.cn/manual/thinkphp5/118003
 ```
-应用项目：https://github.com/top-think/think
-核心框架：https://github.com/top-think/framework
+应用项目：https://github.com/top-think/think  下载完成改名工程名：Zerg
+核心框架：https://github.com/top-think/framework 下载完成改名：thinkphp 拖入Zerg工程中
 ```
 
 #### 项目的独立命名

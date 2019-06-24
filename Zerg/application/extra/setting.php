@@ -7,5 +7,5 @@
  * Time: 6:18 PM
  */
 return [
-    'img_prefix' => 'http://www.hjq.com/zerg/public/images/',
+    'img_prefix' => 'http://localhost/zerg/public/images',
 ];

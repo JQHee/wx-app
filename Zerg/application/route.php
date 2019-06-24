@@ -34,3 +34,6 @@ Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
 Route::get('api/:version/themeGoods','api/:version.Theme/getComplexOne');
 // 首页顶部商品列表
 Route::get('api/:version/homeGoods','api/:version.Product/getRecent');
+
+// 分类列表
+Route::get('api/:version/categoryList','api/:version.Category/getAllCategories');

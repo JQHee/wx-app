@@ -53,4 +53,28 @@ class BaseVlidate extends Validate
             return false;
         }
     }
+
+    /**
+     * 判断参数是否为空
+     * @param $value 参数
+     * @param string $rule
+     * @param string $data
+     * @param string $field
+     * @return bool false OR true
+     */
+    protected function isNotEmpty($value, $rule='', $data='', $field='')
+    {
+        return !empty($value) ? true : false;
+    }
+    /**
+     * 验证是否是手机号
+     * @param $value 需要验证的手机号
+     * @return bool true or false
+     */
+    protected function isMobile($value)
+    {
+        $rule = '/^(1(([35][0-9])|(47)|[8][0126789]))\d{8}$/';
+        $result = preg_match($rule, $value);
+        return $result ? true : false;
+    }
 }

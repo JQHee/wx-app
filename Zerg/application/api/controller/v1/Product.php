@@ -61,7 +61,7 @@ class Product
         }
         //临时隐藏字段summary
         $products = $products->hidden(['summary']);
-        return $products;
+        return n_json(200, '请求成功', 1, $products);
     }
 
     /**
@@ -83,7 +83,7 @@ class Product
         {
             throw new ProductException();
         }
-        return $product;
+        return n_json(200, '请求成功', 1, $product);
     }
 
 

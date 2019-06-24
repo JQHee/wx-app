@@ -35,5 +35,10 @@ Route::get('api/:version/themeGoods','api/:version.Theme/getComplexOne');
 // 首页顶部商品列表
 Route::get('api/:version/homeGoods','api/:version.Product/getRecent');
 
+// 商品详情
+Route::get('api/:version/goodDetail','api/:version.Product/getOne');
+
 // 分类列表
 Route::get('api/:version/categoryList','api/:version.Category/getAllCategories');
+// 分类下的商品列表
+Route::get('api/:version/categorySub','api/:version.Product/getAllInCategory');

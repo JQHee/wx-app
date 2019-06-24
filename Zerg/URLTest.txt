@@ -4,6 +4,9 @@
 首页主题下的商品列表：http://localhost/zerg/public/index.php/api/v1/themeGoods?id=1
 首页底部的商品列表：http://localhost/zerg/public/index.php/api/v1/homeGoods?count=15
 
+/// 商品详情
+商品详情：http://localhost/zerg/public/index.php/api/v1/goodDetail?id=18
+
 /// 分类
 分类列表：http://localhost/zerg/public/index.php/api/v1/categoryList
-分类下的商品列表：
+分类下的商品列表：http://localhost/zerg/public/index.php/api/v1/categorySub?id=4

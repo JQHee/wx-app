@@ -2,16 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: midland
- * Date: 2019-06-24
- * Time: 14:51
+ * Date: 2019-06-26
+ * Time: 09:15
  */
 
-namespace app\lib\exception;
+namespace app\api\validate;
 
 
-use app\api\validate\BaseVlidate;
-
-class TokenGet extends BaseVlidate
+class TokenGet extends  BaseVlidate
 {
     protected $rule = [
         'code' => 'require|isNotEmpty',
@@ -19,5 +17,4 @@ class TokenGet extends BaseVlidate
     protected $message=[
         'code' => '没有code不能获取Token',
     ];
-
 }

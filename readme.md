@@ -22,6 +22,7 @@
 - 服务端：Zerg
 - 微信小程序：Protoss（零食商贩）
 - CMS: Terran
+- thinkphp 5.0.7
 
 
 #### 数据库设计（当前进度：上：64 中：P22）

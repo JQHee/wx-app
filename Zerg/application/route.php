@@ -26,6 +26,19 @@ use think\Route;
 
 // Validate  参数验证层
 
+/* 组的实现
+//商品组
+Route::group('/product',function()
+{
+    //获取某个商品详细信息
+    Route::get('/:id','api/:version.Product/getOne',[],['id'=>'\d+']);
+    //获取分类下商品
+    Route::get('/by_category','api/:version.Product/getAllInCategory');
+    //获取商品信息
+    Route::get('/recent','api/:version.Product/getRecent');
+});
+*/
+
 // 三段式 模块/控制器/方法 'api/:version.Banner/getBanner'
 Route::get('api/:version/banner','api/:version.Banner/getBanner');
 

@@ -24,6 +24,8 @@ return [
 
 use think\Route;
 
+// config中配置路由完整匹配：'route_complete_match'   => true,
+
 // Validate  参数验证层
 
 /* 组的实现
@@ -55,3 +57,8 @@ Route::get('api/:version/goodDetail','api/:version.Product/getOne');
 Route::get('api/:version/categoryList','api/:version.Category/getAllCategories');
 // 分类下的商品列表
 Route::get('api/:version/categorySub','api/:version.Product/getAllInCategory');
+
+// token
+Route::get('api/:version/token','api/:version.Token/getToken');
+// 新增或者修改地址
+Route::get('api/:version/address','api/:version.Address/createOrUpdateAddress');

@@ -33,6 +33,8 @@ collation: utf8mb4_bin
 可以参考项目Koa vue：https://github.com/Tzcodejs/mini-shop
 tp5: https://github.com/zengzhuoyu/Zerg 、有sql文件：https://github.com/VincentPHP/zerg 包含cms后台：https://github.com/1982204777/qiyue
 零食铺子小程序：https://github.com/JQHee/ProtossWx
+抢购：https://www.cnblogs.com/bluealine/p/11039336.html
+恢复库存：https://www.jianshu.com/p/f5809a61d4fe
 
 ##### 一、首页
 ```

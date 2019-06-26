@@ -17,4 +17,6 @@ class Code {
     const NeedToken = 400;
     // Token过期
     const TokenExpired = 401;
+    // 不存在
+    const NotFound = 404;
 }

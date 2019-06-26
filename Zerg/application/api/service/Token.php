@@ -35,7 +35,7 @@ class Token
     }
 
     /**
-     * 从缓存中获取某个值
+     * 从缓存中获取某个值 (获取header中的token)
      * @param $key
      * @return mixed
      * @throws TokenException
@@ -139,7 +139,7 @@ class Token
             //如果被检测的UID为空　抛出通用异常
             throw new ParameterException([
                 'msg' => '检查的UID时必须传入一个被检查的UID',
-                'errorCode' => 10004,
+                'code' => 402,
             ]);
         }
         $currentOperateUID = self::getCurrentUid();
